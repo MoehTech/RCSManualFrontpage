@@ -7,7 +7,20 @@ hr {
     border-top: 1px dotted #b5ae9c;
 }
 
-a {
+.a-instagram {
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    background: #A6252A;
+    position: relative;
+    transition: color .2s;
+    top: -4px;
+}
+
+.a-link {
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -28,4 +41,41 @@ a {
     margin-right: 150px;
     margin-left: 150px;
     margin-bottom: 15px;
+}
+
+.fa {
+    color: #A6252A;
+    font-size: 55px !important;
+    text-align: center;
+    text-decoration: none;
+    transition: color .3s;
+}
+
+.fa-instagram {
+    color: #f5e7c4;
+    font-size:  45px !important;
+}
+
+.fa-facebook-square:hover{
+    color: #3B5998;
+}
+
+.fa-twitter-square:hover {
+    color: #55ACEE;
+}
+
+.fa-linkedin-square:hover {
+    color: #007bb5;
+}
+
+.fa-pinterest-square:hover {
+    color: #cb2027;
+}
+
+.fa-rss-square:hover {
+    color: #ff6600;
+}
+
+.fa-youtube-square:hover {
+    color: #bb0000;
 }
